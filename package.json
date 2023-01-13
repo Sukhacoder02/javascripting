@@ -1,0 +1,19 @@
+{
+  "name": "javascripting",
+  "version": "1.0.0",
+  "description": "javscript challenge",
+  "main": "introduction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sukhacoder02/javascripting.git"
+  },
+  "author": "Sukhacoder02",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sukhacoder02/javascripting/issues"
+  },
+  "homepage": "https://github.com/Sukhacoder02/javascripting#readme"
+}
