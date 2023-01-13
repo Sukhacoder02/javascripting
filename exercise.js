@@ -1,14 +1,15 @@
 
-function checkAmstrong(number) {
+let checkArmstrong = (number) => {
     let numString = number.toString();
     let total = 0;
     for(var i=0;i<numString.length;i++) {
         total += (numString.charCodeAt(i) - 48)**3;
     }
-    console.log(total === number);
+    return total === number;
 }
 
-function checkAmstrongAnotherVersion(number) {
+
+let checkArmstrongVersion2 = (number) => {
     let savedNum = number;
     let total = 0;
     while(number != 0) {
@@ -18,7 +19,10 @@ function checkAmstrongAnotherVersion(number) {
     return savedNum === total;
 }
 
-function checkPrime(number) {
+console.log(checkArmstrong(371));
+
+
+let checkPrime = (number) => {
     for(var i=2;i*i<number;i++) {
         if(number%i === 0) {
             return false;
