@@ -19,7 +19,7 @@ let checkArmstrongVersion2 = (number) => {
     return savedNum === total;
 }
 
-console.log(checkArmstrong(371));
+console.log(checkArmstrongVersion2(371));
 
 
 let checkPrime = (number) => {
