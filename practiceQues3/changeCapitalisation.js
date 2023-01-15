@@ -20,5 +20,6 @@ const toggleCapitalisation = (str) => {
     });
     return resString;
 }
-console.log(toggleCapitalisation('MeRRy hAD a LITTle lAMp') === 'mErrY Had A littLE LamP');
+
+module.exports = {toggleCapitalisation};
 
