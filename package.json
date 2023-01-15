@@ -2,10 +2,10 @@
   "name": "javascripting",
   "version": "1.0.0",
   "description": "javscript challenge",
-  "main": "introduction.js",
   "scripts": {
     "test": "jest"
   },
+  "main": "introduction.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sukhacoder02/javascripting.git"
