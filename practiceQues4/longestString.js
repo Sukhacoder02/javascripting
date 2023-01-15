@@ -8,4 +8,4 @@ const longestString = (strArray) => {
     });
     return resString;
 }
-console.log(longestString(["we", "love", "code", "academy"]));
+module.exports = {longestString};
