@@ -14,4 +14,4 @@ function largestEvenVersion2(array) {
     return max;
 }
 
-console.log(largestEvenVersion2([1,2,3,4,5]));
+module.exports = {largestEven,largestEvenVersion2};
