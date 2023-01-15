@@ -19,8 +19,6 @@ let checkArmstrongVersion2 = (number) => {
     return savedNum === total;
 }
 
-console.log(checkArmstrongVersion2(371));
-
 
 let checkPrime = (number) => {
     for(var i=2;i*i<number;i++) {
@@ -30,4 +28,5 @@ let checkPrime = (number) => {
     }
     return true;
 }
-console.log(checkPrime(19));
+
+module.exports = {checkArmstrong,checkPrime};
