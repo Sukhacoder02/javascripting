@@ -23,3 +23,4 @@ function isAdjacentDigitSameVersion2(number) {
     return true;
 }
 
+module.exports = {isAdjacentDigitSame,isAdjacentDigitSameVersion2};
