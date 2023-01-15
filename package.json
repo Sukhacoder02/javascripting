@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Sukhacoder02/javascripting#readme",
   "dependencies": {
     "eslint": "^8.31.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
   }
 }
