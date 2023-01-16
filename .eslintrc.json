@@ -4,7 +4,6 @@
         "es2021": true,
         "node": true
     },
-    
     "extends": "eslint:recommended",
     "overrides": [
         {
@@ -12,14 +11,10 @@
             "**/*.test.js"
           ],
           "env": {
-            "jest": true // now **/*.test.js files' env has both es6 *and* jest
+            "jest": true 
           },
-          // Can't extend in overrides: https://github.com/eslint/eslint/issues/8813
-          // "extends": ["plugin:jest/recommended"]
           "plugins": ["jest"],
-          "rules": {
-
-          }
+          "rules": {}
         }
       ],
     "parserOptions": {
